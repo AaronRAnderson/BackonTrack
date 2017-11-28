@@ -1,0 +1,69 @@
+@import "materialize";
+@import "font-awesome";
+
+@import "pages.scss";
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 225px;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 225px;
+}
+
+.nav-extended {
+  height: 175px !important;
+}
+.nav-right-margin {
+  margin-right: 150px;
+}
+.nav-left-margin {
+  margin-left: 50px;
+}
+.nav-left-margin-logo {
+  margin-left: 200px;
+}
+.phone {
+  list-style-type: none;
+  padding-left: 25px;
+  font-size: 25px;
+}
+
+
+.hour-row {
+  padding: 30px;
+}
+
+
+.collapsible-header {
+  background-color: black;
+}
+
+.problem-row {
+  margin-bottom: 15px !important;
+}
+
+#sidenav-overlay {
+  z-index: 0;
+}
+
+.social-footer {
+  display: inline-flex;
+}
+.social-footer li {
+  padding: 5px;
+}
+
+.copyright {
+  font-size: 10px;
+  color: white;
+}

@@ -1,0 +1,20 @@
+<nav class="nav-extended black">
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">Back on Track <br /> Wellness Center</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <div class="row">
+      <%= render "shared/social-links" %>
+      <%=render "shared/phone"%>
+      </div>
+      <div class="row">
+      <%= render "shared/nav-links" %>
+      </div>
+    </ul>
+
+    <ul class="side-nav" id="mobile-demo">
+      <%= render "shared/social-links" %>
+      <%= render "shared/nav-links" %>
+    </ul>
+  </div>
+</nav>
