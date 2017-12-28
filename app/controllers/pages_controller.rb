@@ -14,6 +14,6 @@ class PagesController < ApplicationController
   def reviewus
   end
 
-  def contact
+  def about
   end
 end

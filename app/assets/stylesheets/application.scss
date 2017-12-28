@@ -13,6 +13,10 @@ body {
   margin-bottom: 225px;
 }
 
+.teal {
+  background-color: #13e2c2 !important;
+}
+
 .page-footer {
   position: absolute;
   bottom: 0;
@@ -44,10 +48,24 @@ body {
 }
 
 
-.collapsible-header {
-  background-color: black;
+.collapsible-header.david {
+  background-color: #121013;
 }
-
+.collapsible-header.george {
+  background-color: #16110E;
+}
+.collapsible-header.brandon {
+  background-color: #0D0B0C;
+}
+.collapsible-header.julie {
+  background-color: #080609;
+}
+.collapsible-header.morgan {
+  background-color: #0A0809;
+}
+.sidebar-positioner {
+  margin-right: 25px;
+}
 .problem-row {
   margin-bottom: 15px !important;
 }
@@ -76,7 +94,42 @@ body {
   padding-top: 50px;
 }
 
+.people {
+  height: 100%;
+  width: 100%;
+}
+.about-card {
+  height: 445px;
+}
 
+.group-card {
+
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+
+}
+.card-reveal {
+  width: 75% !important;
+}
+.group-people {
+  height: 100%;
+  width: 75% !important;
+}
+.card.group-photo {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0),
+              0 0px 0px 0 rgba(0, 0, 0, 0),
+              0 0px 0px 0px rgba(0, 0, 0, 0);
+
+}
+
+.card.group-photo .card-image img {
+  display: inline !important;
+}
+
+.home-group-photo {
+  margin-left: 10%;
+}
 
 
 .tabs {

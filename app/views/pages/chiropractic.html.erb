@@ -9,29 +9,22 @@
 <!-- 3. Maintenance? Most people and animals can benefit from a regular visit to see their chiropractor, much like visiting a dentist’s office, it will assist in preventing injury and maintain an active and rewarding lifestyle. -->
 
 
-
-
-
-
-
-
-
-<!-- <nav>
-    <div class="nav-wrapper">
-      <div class="col s6 ">
-        <a href="#human" class="breadcrumb">Human</a>
-        <a href="#animal" class="breadcrumb">Animal</a>
-      </div>
-    </div>
-  </nav> -->
-
 <div class="row">
 
   <div class="col s6 offset-s1">
+    <div class="card">
+      <div class="card-tabs">
+        <ul class="tabs">
+          <li class="tab"><a class="active" href="#human">Human</a></li>
+          <li class="tab"><a  href="#animal">Animal</a></li>
+        </ul>
+      </div>
+      <div class="card-content grey lighten-4">
+        <div id="human"><%= render "human" %></div>
+        <div id="animal"><%= render "animal" %></div>
+      </div>
+    </div>
 
-
-    <%= render "human", id: "human" %>
-    <%= render "animal", id: "animal" %>
 
 
 

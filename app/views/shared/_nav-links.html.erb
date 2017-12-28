@@ -1,6 +1,6 @@
-<li><%= link_to "Home", root_path %></li>
-<li><%= link_to "Chiropractic", chiropractic_path %></li>
-<li><%= link_to "Massage", massage_path %></li>
-<li><%= link_to "Hypnosis", hypnosis_path %></li>
-<li><%= link_to "Review Us", review_us_path %></li>
-<li><%= link_to "Contact", contact_path %></li>
+<li class="<%= active?(root_path)%>"><%= link_to "Home", root_path %></li>
+<li class="<%= active?(chiropractic_path)%>"><%= link_to "Chiropractic", chiropractic_path %></li>
+<li class="<%= active?(massage_path)%>"><%= link_to "Massage", massage_path %></li>
+<li class="<%= active?(hypnosis_path)%>"><%= link_to "Hypnosis", hypnosis_path %></li>
+<li class="<%= active?(review_us_path)%>"><%= link_to "Review Us", review_us_path %></li>
+<li class="<%= active?(about_path)%>"><%= link_to "About", about_path %></li>
